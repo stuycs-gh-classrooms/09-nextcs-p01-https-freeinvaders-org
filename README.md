@@ -56,15 +56,15 @@ How will you be using arrays in this project?
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- 'A' and LEFT arrow key used to move the "spaceship" to the left
-- 'D' and RIGHT arrow key used to move the "spaceship" to the right
-- ' ' (spacebar) used to shoot projectiles at the "aliens"
-- ESC for pausing and resuming the game (and settings potentially)
-- 'R' to reset the game
+- 'A' and LEFT arrow key used to move the "spaceship" to the left.
+- 'D' and RIGHT arrow key used to move the "spaceship" to the right.
+- ' ' (spacebar) used to shoot projectiles at the "aliens."
+- ESC for pausing and resuming the game (and settings potentially).
+- 'R' to reset the game.
 
 Mouse Control:
-- Mouse movement: N/A
-- Mouse pressed: Also used to shoot projectiles
+- Mouse movement: N/A.
+- Mouse pressed: Also used to shoot projectiles.
 
 
 ### Classes
@@ -72,18 +72,68 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS Aliens
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - PVector center;
+  - int xspeed;
+  - int yspeed;
+  - int asize;
+  - color c;
 - METHODS
-  - LIST METHODS HERE
+  - void display();
+  - void setColor(color newC);
+  - void setSpeed(int newX, int newY);
+  - void move();
+  - boolean checkHit(Projectiles p);
+
+CLASS AliensGrid
+- Instance variables:
+  - Aliens[][] grid;
+  - int alienSize;
+  - PVector topLeft;
+  - int gridWidth;
+  - int gridHeight;
+  - int direction;
+- METHODS
+  - void makeAliens();
+  - void display();
+  - boolean checkHit(Aliens a);
+  - void move();
+  - void border();
+  - void changeDirection(); 
 
 CLASS Spaceship
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - PVector center;
+  - int xspeed;
+  - int sSize;
+  - color c;
 - METHODS
-  - LIST METHODS HERE
+  - void display();
+  - void setColor(color newC);
+  - void setSpeed(int newX, int newY);
+  - void move();
+  - boolean checkHit(Projectiles p);
  
 CLASS Shields
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - int shieldSize;
+  - PVector center;
+  - int shieldWidth;
+  - int shieldHeight;
 - METHODS
-  - LIST METHODS HERE
+  - void makeShields();
+  - void display();
+  - boolean checkHit(Projectiles p);
+  - void update();
+
+CLASS Projectiles
+- Instance variables:
+  - PVector center;
+  - int yspeed;
+  - int psize;
+  - color c;
+- METHODS
+  - void display();
+  - boolean pva(); //player or alien
+  - void setColor(color newC);
+  - void setSpeed(int newX, int newY);
+  - void move();
