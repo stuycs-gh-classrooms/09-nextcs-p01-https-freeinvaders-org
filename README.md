@@ -44,10 +44,10 @@ What are some features that are not essential to the program, but you would like
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- Creating a "wall of shields" that slowly breaks when projectiles hit it.
 
 2D Array:
-- YOUR ANSWER HERE
+- Create the grid of "aliens."
 
 
 ### Controls
@@ -68,13 +68,19 @@ Mouse Control:
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS Aliens
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
 
-CLASS NAME1
+CLASS Spaceship
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+ 
+CLASS Shields
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
