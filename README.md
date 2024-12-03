@@ -29,22 +29,24 @@ What are the core features that your program should have? These should be things
 - A "lives" counter that decreases by 1 upon collision with a projectile.
 - A pause and resume button.
 - A key that allows you to reset the game.
-- Different levels and "aliens".
+- Different levels and "aliens."
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
 - A boss fight towards the end of the game.
-- Ramping of the "aliens" towards the later levels.
+- Ramping up the "aliens" capabilities towards the later levels.
 - Options button to change certain settings.
 - Difficulties.
 - Special projectiles.
+- Power-Ups
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
 - Creating a "wall of shields" that slowly breaks when projectiles hit it.
+- The projectiles if there are more than one at a time.
 
 2D Array:
 - Create the grid of "aliens."
@@ -59,6 +61,7 @@ Keyboard Commands:
 - ' ' (spacebar) used to shoot projectiles at the "aliens"
 - ESC for pausing the game
 - ENTER for resuming the game
+- 'R' to reset the game
 
 Mouse Control:
 - Mouse movement: N/A
