@@ -21,14 +21,21 @@ This project will be completed in phases. The first phase will be to work on thi
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-- A grid of "enemies" that move across and down, and also shoot the player.
-- A user controlled "spaceship" for shooting projectiles.
-- Projectiles that collide and destroy enemies.
+- A grid of "aliens" that move side-to-side and move down when colliding with a wall, and also shoots at the player.
+- A user controlled "spaceship" for that can shoot projectiles with a press of the spacebar.
+- Projectiles should be able to collide and destroy "aliens."
+
+#### Less Necessary Features
+- A "lives" counter that decreases by 1 upon collision with a projectile.
+- A pause and resume button.
+- A key that allows you to reset the game.
+- Different levels and "aliens".
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- A boss fight towards the end of the game.
+- Ramping of the "aliens" towards the later levels.
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -44,11 +51,15 @@ How will you be using arrays in this project?
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- 'A' and LEFT arrow key used to move the "spaceship" to the left
+- 'D' and RIGHT arrow key used to move the "spaceship" to the right
+- ' ' (spacebar) used to shoot projectiles at the "aliens"
+- ESC for pausing the game
+- ENTER for resuming the game
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: N/A
+- Mouse pressed: N/A
 
 
 ### Classes
