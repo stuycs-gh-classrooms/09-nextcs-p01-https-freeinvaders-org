@@ -39,7 +39,7 @@ What are some features that are not essential to the program, but you would like
 - Options button to change certain settings.
 - Difficulties.
 - Special projectiles.
-- Power-Ups
+- Power-Ups.
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -59,13 +59,12 @@ Keyboard Commands:
 - 'A' and LEFT arrow key used to move the "spaceship" to the left
 - 'D' and RIGHT arrow key used to move the "spaceship" to the right
 - ' ' (spacebar) used to shoot projectiles at the "aliens"
-- ESC for pausing the game
-- ENTER for resuming the game
+- ESC for pausing and resuming the game (and settings potentially)
 - 'R' to reset the game
 
 Mouse Control:
 - Mouse movement: N/A
-- Mouse pressed: N/A
+- Mouse pressed: Also used to shoot projectiles
 
 
 ### Classes
