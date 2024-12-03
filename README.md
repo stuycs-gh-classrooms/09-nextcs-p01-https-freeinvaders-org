@@ -36,6 +36,9 @@ What are some features that are not essential to the program, but you would like
 
 - A boss fight towards the end of the game.
 - Ramping of the "aliens" towards the later levels.
+- Options button to change certain settings.
+- Difficulties.
+- Special projectiles.
 
 ### Array Usage
 How will you be using arrays in this project?
