@@ -24,12 +24,13 @@ What are the core features that your program should have? These should be things
 - A grid of "aliens" that move side-to-side and move down when colliding with a wall, and also shoots at the player.
 - A user controlled "spaceship" for that can shoot projectiles with a press of the spacebar.
 - Projectiles should be able to collide and destroy "aliens."
+- Different types of "aliens."
 
 #### Less Necessary Features
 - A "lives" counter that decreases by 1 upon collision with a projectile.
 - A pause and resume button.
 - A key that allows you to reset the game.
-- Different levels and "aliens."
+- Different levels with special "aliens."
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
