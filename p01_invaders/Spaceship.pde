@@ -1,3 +1,3 @@
 class Spaceship{
   
-}//
+}//Spaceship
