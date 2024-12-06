@@ -1,5 +1,7 @@
-int BSIZE; //ball size
-int PSIZE; //projectile size
+//global variables
+int ASIZE; //alien size
+int PSIZE; //player size
+int BSIZE; //bullet size
 AliensGrid[][] aliens; //grid of aliens
 Spaceship player; //spaceship
 Projectiles pbullet; //player projectile
